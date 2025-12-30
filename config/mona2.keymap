@@ -158,9 +158,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans            &trans            &kp LC(LEFT)      &kp LC(RIGHT)                              &kp LS(LA(LC(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LS(LA(LC(LG(O))))  &kp LG(LA(LC(LS(P))))
+&trans  &trans            &trans            &kp LG(LEFT)      &kp LG(RIGHT)                              &kp LS(LA(LC(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LS(LA(LC(LG(O))))  &kp LG(LA(LC(LS(P))))
 &trans  &trans            &trans            &trans            &trans         &trans              &trans  &kp LS(LA(LC(LG(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &kp MINUS
-&trans  &kp RC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans         &kp LC(UP_ARROW)    &trans  &trans                 &mkp MB1               &trans                 &mkp MB2               &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &trans         &kp LG(UP_ARROW)    &trans  &trans                 &mkp MB1               &trans                 &mkp MB2               &trans
 &trans  &trans            &trans            &trans            &trans         &trans              &trans  &trans                                                                                      &trans
             >;
 
