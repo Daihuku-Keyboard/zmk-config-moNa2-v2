@@ -158,10 +158,10 @@
 
         MOUSE {
             bindings = <
-&kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LG(LC(E))))  &kp LG(LS(LA(LC(R))))  &kp LG(LS(LA(LC(T))))                              &kp LS(LC(LA(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LG(LA(LS(O))))  &kp LG(LA(LC(LS(P))))
-&kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LA(LC(LS(LG(F))))  &kp LS(LG(LA(LC(G))))                      &trans  &kp LS(LA(LC(LG(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &kp MINUS
-&kp LS(LA(LG(LC(Z))))  &kp LG(LS(LA(LC(X))))  &kp LG(LS(LA(LC(C))))  &kp LG(LS(LC(LA(V))))  &kp LS(LA(LC(LG(B))))  &kp LG(UP_ARROW)    &trans  &kp LS(LA(LC(LG(N))))  &mkp MB1               &trans                 &mkp MB2               &trans
-&trans                 &trans                 &trans                 &trans                 &trans                 &trans              &trans  &trans                                                                                      &trans
+&kp LS(LA(LC(LG(Q))))             &kp LS(LA(LC(LG(W))))  &kp LS(LA(LG(LC(E))))  &kp LG(LS(LA(LC(R))))  &kp LG(LS(LA(LC(T))))                              &kp LS(LC(LA(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))  &kp LC(LG(LA(LS(O))))  &kp LG(LA(LC(LS(P))))
+&mt LCTRL LS(LA(LC(LG(A))))       &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LA(LC(LS(LG(F))))  &kp LS(LG(LA(LC(G))))                      &trans  &kp LS(LA(LC(LG(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &kp MINUS
+&mt LEFT_SHIFT LS(LC(LA(LG(Z))))  &kp LG(LS(LA(LC(X))))  &kp LG(LS(LA(LC(C))))  &kp LG(LS(LC(LA(V))))  &kp LS(LA(LC(LG(B))))  &kp LG(UP_ARROW)    &trans  &kp LS(LA(LC(LG(N))))  &mkp MB1               &trans                 &mkp MB2               &trans
+&trans                            &trans                 &trans                 &trans                 &trans                 &trans              &trans  &trans                                                                                      &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
